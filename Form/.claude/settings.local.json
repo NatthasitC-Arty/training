@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/SDA/**)",
+      "PowerShell(powershell.exe -ExecutionPolicy Bypass -File \"C:\\\\SDA\\\\Extract-CrystalReport.ps1\" -RptFolder \"C:\\\\Training\\\\training\\\\Form\" -OutputRoot \"C:\\\\SDA\\\\ExtractedSQL\" 2>&1 | Select-Object -Last 60)",
+      "PowerShell(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\User\\\\Desktop\\\\crystal-report-extract\\\\Extract-CrystalReport.ps1\" 2>&1 | Select-Object -Last 20)"
+    ]
+  }
+}
